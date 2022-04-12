@@ -64,7 +64,7 @@ const Footer = () => {
         <a href="mailto:codebucks27@gmail.com?subject=Email From Your Website">
           <img src={Gmail} alt="Gmail" />
         </a>
-      </RightText> */}
+      </RightText>*/}
     </FOOTER>
   );
 };
