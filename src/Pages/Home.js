@@ -3,12 +3,21 @@
 //Import all the require sections here
 // import HeroSection from "../Sections/Hero/index";
 import HeroSection from '../Sections/HeroSection/index';
+import React, { useState } from 'react';
 // import Summary from '../Sections/Summary/index';
+import InfoSection from '../Sections/InfoSection/index';
 import About from "../Sections/About/index";
 import Services from "../Sections/Services/index";
 import Testimonials from "../Sections/Testimonials/index";
 import Contact from "../Sections/Contact/index";
 import styled from "styled-components";
+
+import {
+  homeObjOne,
+  homeObjTwo,
+  homeObjThree
+} from '../Sections/InfoSection/Data';
+
 
 
 const Container = styled.div`
@@ -22,7 +31,9 @@ const Container = styled.div`
 const Home = () => {
   return (
     <Container>
-      <HeroSection />
+      <HeroSection />     
+      <InfoSection {...homeObjOne} />
+      
       {/* <Summary/> */}
       {/* <HeroSection /> */}
       <About />
