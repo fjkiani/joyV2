@@ -33,6 +33,7 @@ const Home = () => {
     <Container>
       <HeroSection />     
       <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjTwo} /> */}
       
       {/* <Summary/> */}
       {/* <HeroSection /> */}

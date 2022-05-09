@@ -23,7 +23,7 @@ const InfoSection = ({
   headline,
   description,
   buttonLabel,
-  img,
+  image,
   alt,
   id,
   primary,
@@ -31,9 +31,10 @@ const InfoSection = ({
   dark,
   dark2
 }) => {
-  console.log(img);
+  console.log(image);
   return (
     <>
+  
     
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
@@ -62,7 +63,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <Img src={image} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

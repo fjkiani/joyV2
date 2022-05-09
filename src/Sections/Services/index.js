@@ -320,17 +320,17 @@ const Services = () => {
     <ServiceSection id="services">
       <Background ref={ref}>
         <Title className="title">What We Do</Title>
-        <Line id="line" />
+        {/* <Line id="line" /> */}
         <Triangle id="triangle" />
       </Background>
 
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Design"
-          title={<h1>We build award winning Designs</h1>}
+          topic="Web Development"
+          title={<h1>We build powerful web applications and websites</h1>}
           subText={
             <h5>
-              We help clients to build great design to attract more customers
+              Invest in your business once and profit forever
             </h5>
           }
         />

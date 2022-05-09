@@ -18,6 +18,10 @@ const AboutSection = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -15rem;
+  @media only Screen and (max-width: 40em) {
+    margin-top: -50rem;
+  }
 `;
 const Waves = styled.img`
   width: 100%;
@@ -32,6 +36,7 @@ const Hand = styled.div`
 
   @media only Screen and (max-width: 40em) {
     display: none;
+
   }
 `;
 
@@ -94,6 +99,7 @@ const Human = styled.div`
 
   @media only Screen and (max-width: 40em) {
     display: none;
+    
   }
 `;
 const Text = styled.h4`
@@ -128,7 +134,7 @@ const About = () => {
       </Hand> */}
       <Main>
         <div>
-          <Title>Bring your business ideas to life</Title>
+          <Title>Grow your business to your true potential</Title>
           <CurvedLine />
         </div>
         <Content>
@@ -141,10 +147,7 @@ const About = () => {
             </Human> */}
 
             <Text>
-              We help our customers to tell about themselves, to grow and stand
-              out in an increasingly competitive digital world, through creative
-              projects that are able to attract and involve, creating strategic
-              value.
+              Gain more customers, automate your business solutions and enhance your web presence 
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />
