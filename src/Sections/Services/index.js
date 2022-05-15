@@ -61,6 +61,9 @@ const Title = styled.h1`
   }
 `;
 
+
+
+
 const Line = styled.span`
   border-left: 4px solid var(--background);
   height: 15rem;
@@ -326,8 +329,8 @@ const Services = () => {
 
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Web Development"
-          title={<h1>We build powerful web applications and websites</h1>}
+          topic="Engineering"
+          title={<h1>We build powerful web applications, Web 3.0 and Websites</h1>}
           subText={
             <h5>
               Invest in your business once and profit forever
@@ -341,12 +344,11 @@ const Services = () => {
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Develop"
-          title={<h1>We Develope high quality Web & App</h1>}
+          topic="Consulting"
+          title={<h1>We consult businesses on how to automate, grow and transform their Information Technology </h1>}
           subText={
             <h5>
-              We build appropriate solution to develope your website & app with
-              best tools available
+              Learn ways to replace your legacy software impacting your business performance 
             </h5>
           }
         />
@@ -357,13 +359,11 @@ const Services = () => {
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Support"
-          title={<h1>We provide support for your digital presence</h1>}
+          topic="Grow"
+          title={<h1>We grow your business</h1>}
           subText={
             <h5>
-              Once your system is online, we will stay on hand to help you use
-              it and provide technical support and maintenance <br /> your
-              business
+              Pay-Per-Use model 
             </h5>
           }
         />

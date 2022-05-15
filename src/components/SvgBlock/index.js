@@ -13,7 +13,9 @@ const Rb = styled.div`
     height: auto;
   }
   @media only Screen and (max-width: 48em) {
-    display: none;
+    display: flex;
+    width: 100%;
+
   }
 `;
 
