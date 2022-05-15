@@ -370,7 +370,7 @@ const Services = () => {
         {/* <OBJ>
           <img src={Capsule} alt="Capsule Object" width="400" height="400" />
         </OBJ> */}
-        <SvgBlock svg="Support.svg" />
+        <SvgBlock svg="mobile.svg" />
       </Content>
     </ServiceSection>
   );
