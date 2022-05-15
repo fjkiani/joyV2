@@ -22,7 +22,7 @@ const ServiceSection = styled.section`
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-top: 20rem;
+  // padding-top: 20rem;
 `;
 
 const Background = styled.div`
@@ -330,7 +330,7 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Engineering"
-          title={<h1>We build powerful web applications, Web 3.0 and Websites</h1>}
+          title={<h1>We build powerful web applications</h1>}
           subText={
             <h5>
               Invest in your business once and profit forever
@@ -345,7 +345,7 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Consulting"
-          title={<h1>We consult businesses on how to automate, grow and transform their Information Technology </h1>}
+          title={<h1>We transform Information Technology </h1>}
           subText={
             <h5>
               Learn ways to replace your legacy software impacting your business performance 
