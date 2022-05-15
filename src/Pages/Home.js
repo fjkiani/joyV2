@@ -10,6 +10,7 @@ import About from "../Sections/About/index";
 import Services from "../Sections/Services/index";
 import Testimonials from "../Sections/Testimonials/index";
 import Contact from "../Sections/Contact/index";
+import WhatWeDo from "../Sections/WhatWeDo/index";
 import styled from "styled-components";
 
 import {
@@ -39,6 +40,7 @@ const Home = () => {
       {/* <HeroSection /> */}
       <About />
       <Services />
+      <WhatWeDo/>
       <Testimonials />
       <Contact />
     </Container>
