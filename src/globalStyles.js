@@ -47,6 +47,7 @@ export const GlobalStyle = createGlobalStyle`
     h6 {
         margin:0;
         padding:0;
+        color: black;
     }
     a {
 
@@ -59,6 +60,9 @@ export const GlobalStyle = createGlobalStyle`
         &:focus{
             outline:none;
         }
+    }
+    h5 {
+        color: black;
     }
 
     *:focus {

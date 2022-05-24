@@ -2,6 +2,9 @@ import Facebook from "../../assets/facebook-square-brands.svg";
 import LinkedId from "../../assets/linkedin-brands.svg";
 import Twitter from "../../assets/twitter-square-brands.svg";
 import Instagram from "../../assets/instagram-square-brands.svg";
+import Git from "../../assets/git.svg";
+
+
 import styled from "styled-components";
 
 const ContactSection = styled.section`
@@ -130,21 +133,21 @@ const Contact = () => {
       <Title>Get in touch</Title>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
       <Icons>
-        <a href="https://www.facebook.com/">
+        <a href="https://github.com/fjkiani">
           {" "}
-          <img src={Facebook} alt="Facebook" />
+          <img src={Git} alt="Git" />
         </a>
         <a href="https://www.linkedin.com//">
           <img src={LinkedId} alt="LinkedId" />
         </a>
-        <a href="https://twitter.com/">
+        {/* <a href="https://twitter.com/">
           <img src={Twitter} alt="Twitter" />
-        </a>
-        <a href="https://www.instagram.com/">
+        </a> */}
+        {/* <a href="https://www.instagram.com/">
           <img src={Instagram} alt="Instagram" />
-        </a>
+        </a> */}
       </Icons>
-      <Form>
+      {/* <Form>
         <Row>
           <input name="name" type="text" placeholder="your name" />
           <input
@@ -169,7 +172,7 @@ const Contact = () => {
             Submit
           </button>
         </div>
-      </Form>
+      </Form> */}
     </ContactSection>
   );
 };

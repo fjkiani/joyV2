@@ -36,7 +36,8 @@ const Background = styled.div`
   width: 100vw;
   height: 85vh;
   z-index: -1;
-  background-color: #0a0b10;
+  // background-color: #0a0b10;
+  background-color: white;
   background-size: auto 100vh;
   background-repeat: no-repeat;
 `;
@@ -344,11 +345,11 @@ const Services = () => {
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Consulting"
-          title={<h1>We transform Information Technology </h1>}
+          topic="Engineering"
+          title={<h1>Bring your idea to life </h1>}
           subText={
             <h5>
-              Learn ways to replace your legacy software impacting your business performance 
+              Turn your idea into a business
             </h5>
           }
         />
@@ -360,17 +361,17 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Grow"
-          title={<h1>We grow your business</h1>}
+          title={<h1>Grow your business</h1>}
           subText={
             <h5>
-              Pay-Per-Use model 
+             Generate ways to sell your products
             </h5>
           }
         />
         {/* <OBJ>
           <img src={Capsule} alt="Capsule Object" width="400" height="400" />
         </OBJ> */}
-        <SvgBlock svg="Support.svg" />
+        <SvgBlock svg="mobile.svg" />
       </Content>
     </ServiceSection>
   );
