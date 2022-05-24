@@ -90,7 +90,7 @@ const Testimonials = () => {
 
           <Card
             text="Co-created a web development bootcamp for City University of New York - College of Staten Island."
-            image="avatar-6"
+            image="avatar-8"
       
             />
 

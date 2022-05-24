@@ -14,11 +14,11 @@ const CARD = styled.div`
 `;
 
 const Image = styled.div`
-  width: 100%;
-  height: 50%;
+  width: 200%;
+  height: -webkit-fill-available;
   position: absolute;
   left: 50%;
-  bottom: 80%;
+  bottom: 35%;
   transform: translate(-50%);
   border-radius: 0%;
   background-color: red;
